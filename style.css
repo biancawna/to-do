@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: aliceblue;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    overflow-y: auto;
+    padding: 1.2rem;
+    border-radius: 12px;
+}
+p.feito {
+    color: gray;
+    text-decoration: line-through;
+}
+.button {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    width: 100%;
+}
+.button form{
+    width: 100%;
+}
+.button input {
+    width: 100%;
+    border: 0;
+    height: 100%;
+}
+svg {
+    width: 100%;
+}
+svg:hover {
+    color: brown;
+    cursor: pointer;
+}
+.task {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    width: 100%;
+}
+
+.task div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.task div svg {
+    width: 10%;
+}
+.task p {
+    width: 90%;
+}
